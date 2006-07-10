@@ -1,0 +1,13 @@
+
+INSTALL:
+
+You can install the package using the typical Perl procedure:
+
+`perl Makefile.PL; make; make test; make install`
+
+USE:
+
+use XML2;
+
+my $xml = XML2->new( data => $data, file => $file );
+
